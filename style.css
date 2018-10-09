@@ -2,6 +2,14 @@ body, html {
     height: 100%;
 }
 
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
 .no-padding {
   padding-left: 0;
   padding-right: 0;
@@ -9,7 +17,7 @@ body, html {
 
 .parallax {
 	background-image: url("Spiral.jpg");
-	height: 100%;
+	height: 120%;
 	width: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -32,7 +40,7 @@ body, html {
 	max-width: auto;
 }
 
-#About {
+#heading {
 	font-family: Playfair Display;
 	font-size:60px;
 	color: white;
@@ -40,7 +48,7 @@ body, html {
 	position: 50%;
 	margin: auto;
 	padding-top: 100px;
-	padding-bottom: 75px;
+	padding-bottom: 90px;
 	min-height: 70px;
 	color: black;
 }
@@ -60,3 +68,4 @@ body, html {
 	font-family: Spectral Semibold;
 	letter-spacing: 2px;
 }
+
