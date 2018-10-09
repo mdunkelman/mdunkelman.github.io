@@ -70,8 +70,8 @@ a:visited {
 	text-align: center;
 	position: 50%;
 	margin: auto;
-	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-top: 50px;
+	padding-bottom: 75px;
 	min-height: 70px;
 }
 
@@ -94,11 +94,17 @@ a:visited {
 }
 
 .btn {
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
+	margin: 13px;
 	color: white;
-	text-align: center;
+	position: 50%;
+	margin: auto;
+}
 
+.btnSpace {
+	padding: 15px;
+}
+
+.createSpace {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
