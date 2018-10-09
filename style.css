@@ -27,7 +27,7 @@ a:visited {
 }
 
 #MyName {
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-size: 75px;
 	color: white;
 	text-align: center;
@@ -41,16 +41,16 @@ a:visited {
 }
 
 #heading {
-	font-family: Playfair Display;
+	font-family: "Monserrat";
+	text-decoration: underline;
 	font-size:60px;
-	color: white;
+	color: black;
 	text-align: center;
 	position: 50%;
 	margin: auto;
 	padding-top: 100px;
 	padding-bottom: 90px;
 	min-height: 70px;
-	color: black;
 }
 
 .SelfPortrait {	
@@ -62,10 +62,43 @@ a:visited {
     margin-right: auto;
 }
 
+#connect-heading {
+	font-family: "Monserrat";
+	text-decoration: underline;
+	font-size:60px;
+	color: white;
+	text-align: center;
+	position: 50%;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	min-height: 70px;
+}
+
 .bio {
 	padding-top: 275px;
 	padding-right: 60px;
-	font-family: Spectral Semibold;
-	letter-spacing: 2px;
+	font-family: "Spectral Semibold";
+	letter-spacing: 1px;
+	font-size: 16px;
 }
 
+.bold {
+	font-weight: bold;
+	font-size:  16px;
+}
+
+.blackbackground {
+	background: black;
+	margin-top: 50px;
+}
+
+.btn {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	color: white;
+	text-align: center;
+
+}
