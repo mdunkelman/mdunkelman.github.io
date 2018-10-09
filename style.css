@@ -19,7 +19,7 @@ body, html {
 }
 
 #MyName {
-	font-family: Helvetica Neue;
+	font-family: Playfair Display;
 	font-size: 75px;
 	color: white;
 	text-align: center;
@@ -33,7 +33,7 @@ body, html {
 }
 
 #About {
-	font-family: Helvetica Neue;
+	font-family: Playfair Display;
 	font-size:60px;
 	color: white;
 	text-align: center;
@@ -52,4 +52,11 @@ body, html {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bio {
+	padding-top: 275px;
+	padding-right: 60px;
+	font-family: Spectral Semibold;
+	letter-spacing: 2px;
 }
