@@ -15,6 +15,10 @@ a:visited {
   padding-right: 0;
 }
 
+.blackFont {
+	color: black;
+}
+
 .parallax {
 	background-image: url("headerBackground.jpg");
 	height: 120%;
@@ -33,7 +37,7 @@ a:visited {
 	text-align: center;
 	position: 50%;
 	margin: auto;
-	text-shadow: 3px 2px blue;
+	text-shadow: 3px 2px black;
 	padding-top: 305px;
 	padding-bottom: 305px;
 	min-height: 70px;
@@ -85,7 +89,7 @@ a:visited {
 
 .bold {
 	font-weight: bold;
-	font-size:  16px;
+	font-size:  18px;
 }
 
 .blackbackground {
@@ -107,4 +111,25 @@ a:visited {
 .createSpace {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#padding {
+	padding-bottom: 50px;
+}
+
+.projectDescription {
+	font-family: "Spectral Semibold";
+	letter-spacing: 1px;
+	font-size: 16px;
+	padding-bottom: 65px;
+}
+
+#headshot {
+	padding-bottom: 250px
+}
+
+#wrapper {
+	margin: auto;
+  	width: 90%;
+  	padding: 5px;
 }
