@@ -16,7 +16,7 @@ a:visited {
 }
 
 .parallax {
-	background-image: url("Spiral.jpg");
+	background-image: url("headerBackground.jpg");
 	height: 120%;
 	width: 100%;
 	background-attachment: fixed;
@@ -71,7 +71,7 @@ a:visited {
 	position: 50%;
 	margin: auto;
 	padding-top: 50px;
-	padding-bottom: 75px;
+	padding-bottom: 20px;
 	min-height: 70px;
 }
 
