@@ -7,85 +7,106 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title> Michael Dunkelman </title>
 	<link type="text/css" href="style.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 
-<body onload="typeWriter()">
+<body>
 
 	<div class="container-fluid no-padding">
 
 		<div class="row">
 			<div class="parallax">
-
-				<div id="MyName">
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-6">
-				<p id="heading"> About. </p>
-				<img class="center-block SelfPortrait" id="headshot" src="headshot.JPG"/>
-			</div>
-			<div class="col">
-
-				<p class="align-middle bio"> Hi! I'm Michael. I'm currently a senior at Tufts University majoring in Computer Science. As someone who constantly seeks to better understand those around me, I am drawn to opportunities to research users and develop products based on customer preferences.
-
-					<br>
-					<br>
-
-					My experience lies in web development and software engineering, specifically in the
-					Cybersecurity and Educational Technology fields. Through these roles, I have honed my skills in developing products for specific audiences, while emphasizing their users' needs. I am looking to work professionally in User Experience and Product Development, since these fields mix technology with creativivity.
-					<br>
-					<br>
-
-					Feel free to check out my past projects and experiences!
-					<button type="button" class="btn btn-dark"><a href="projects.html">Projects </a></button>
-
-				</p>
-			</div>
-
-
-		</div>
-
-
-		<div class="footer">
-			<div class="row blackbackground">
-
-				<div class="col-12">
-					<p id="connect-heading"> Connect. </p>
-					<div class="text-center">
-						<div class="btnSpace">
-							<button type="button" class="btn btn-outline-warning btn-lg"> <a href="mailto:Michael.Dunkelman@tufts.edu" target="_top" class="cd-btn"> Contact Me </a> </button>
-							<button type="button" class="btn btn-outline-primary btn-lg"> <a href="https://www.linkedin.com/in/michael-dunkelman/" target="_blank">LinkedIn </a> </button>
-							<button type="button" class="btn btn-outline-danger btn-lg"> <a href="Michael Dunkelman Resume.pdf" target="_blank"> Resume </a></button>
-							<br>
-						</div>
-
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="projects.html">Work Experience <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="Michael Dunkelman Resume.pdf">Resume <span class="sr-only">(current)</span></a>
+							</li>
+						</ul>
 					</div>
+				</nav>
 
-					<div class="createSpace">
-					</div>
-				</div>
+				<h1 class="ml9">
+					<span class="text-wrapper">
+						<span class="letters">Michael Dunkelman</span>
+					</span>
+				</h1>
+
 			</div>
 		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<p id="heading"> About. </p>
+			<img class="center-block SelfPortrait" id="headshot" src="headshot.JPG"/>
+		</div>
+		<div class="col">
+
+			<p class="align-middle bio"> Hi! I'm Michael. I'm currently a senior at Tufts University majoring in Computer Science. As someone who constantly seeks to better understand those around me, I am drawn to opportunities to research users and develop products based on customer preferences.
+
+				<br>
+				<br>
+
+				My experience lies in web development and software engineering, specifically in the
+				Cybersecurity and Educational Technology fields. Through these roles, I have honed my skills in developing products for specific audiences, while emphasizing their users' needs. I am looking to work professionally in User Experience and Product Development, since these fields mix technology with creativivity.
+				<br>
+				<br>
+
+				Feel free to check out my past projects and experiences!
+				<button type="button" class="btn btn-dark"><a href="projects.html">Work Experience </a></button>
+
+			</p>
+		</div>
+
 
 	</div>
+
+
+	<div class="footer">
+		<div class="row blackbackground">
+
+			<div class="col-12">
+				<p id="connect-heading"> Connect. </p>
+				<div class="text-center">
+					<div class="btnSpace">
+						<button type="button" class="btn btn-outline-warning btn-lg"> <a href="mailto:Michael.Dunkelman@tufts.edu" target="_top" class="cd-btn"> Contact Me </a> </button>
+						<button type="button" class="btn btn-outline-primary btn-lg"> <a href="https://www.linkedin.com/in/michael-dunkelman/" target="_blank">LinkedIn </a> </button>
+						<br>
+					</div>
+
+				</div>
+
+				<div class="createSpace">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 </body>
 
 <script>
-var i = 0;
-var txt = 'Michael Dunkelman';
-var speed = 110;
-
-function typeWriter() {
-	if (i < txt.length) {
-		document.getElementById("MyName").innerHTML += txt.charAt(i);
-		i++;
-		setTimeout(typeWriter, speed);
-	}
-}
+var textWrapper = document.querySelector('.ml9 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+anime.timeline({loop: true})
+.add({
+	targets: '.ml9 .letter',
+	scale: [0, 1],
+	duration: 1500,
+	elasticity: 600,
+	delay: (el, i) => 45 * (i+1)
+}).add({
+	targets: '.ml9',
+	opacity: 0,
+	duration: 1000000000,
+	delay: 1
+});
 </script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

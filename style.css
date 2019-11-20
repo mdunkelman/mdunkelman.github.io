@@ -1,3 +1,33 @@
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  font-family: "Playfair Display";
+	font-size: 75px;
+	color: white;
+	text-align: center;
+	position: 50%;
+	margin: auto;
+	text-shadow: 3px 2px black;
+	padding-top: 305px;
+	padding-bottom: 305px;
+	min-height: 100px;
+	max-width: auto;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
 body, html {
     height: 100%;
 }
@@ -18,6 +48,7 @@ a:visited {
 .blackFont {
 	color: black;
 }
+
 
 .parallax {
 	background-image: url("headerBackground.jpg");
@@ -47,17 +78,19 @@ a:visited {
 #heading {
 	font-family: "Monserrat";
 	text-decoration: underline;
-	font-size:60px;
+	font-size:50px;
 	color: black;
 	text-align: center;
 	position: 50%;
 	margin: auto;
-	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-top: 70px;
+	padding-bottom: 135px;
 	min-height: 70px;
 }
 
 .SelfPortrait {
+  margin-top: 10px;
+  margin-bottom: 200px;
 	width: 300px;
 	height: auto;
 	margin: auto;
@@ -74,8 +107,8 @@ a:visited {
 	text-align: center;
 	position: 50%;
 	margin: auto;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 50px;
 	min-height: 70px;
 }
 
@@ -125,7 +158,7 @@ a:visited {
 }
 
 #headshot {
-	padding-bottom: 250px
+	padding-bottom: 250px;
 }
 
 #wrapper {
@@ -136,4 +169,9 @@ a:visited {
 
 #imageSpacing {
   padding-bottom: 200px
+}
+
+.navbar {
+  padding-top: 50px;
+  margin-left: 50px;
 }
