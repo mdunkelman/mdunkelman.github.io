@@ -1,0 +1,97 @@
+/* A quieter portrait keeps the About hero focused on the introduction. */
+.about-photo{
+  width:min(100%,340px);
+  justify-self:end;
+}
+
+/* Show the finished experience early without turning the opening into a gallery. */
+.final-preview{padding:clamp(88px,11vh,132px) 0 clamp(48px,7vh,84px)}
+.final-preview-intro{
+  display:grid;
+  grid-template-columns:1fr 3fr;
+  gap:50px;
+  align-items:start;
+  padding-top:18px;
+  border-top:1px solid #92938c;
+}
+.final-preview-intro h2{
+  margin:0;
+  font:400 clamp(48px,5.5vw,82px)/.94 'Instrument Serif',Georgia,serif;
+  letter-spacing:-.03em;
+}
+.final-preview-intro p{
+  max-width:620px;
+  margin:24px 0 0;
+  font:400 18px/1.7 Manrope,Arial,sans-serif;
+  color:#51534f;
+}
+.final-preview-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(24px,3vw,48px);
+  margin-top:clamp(48px,7vh,82px);
+}
+.final-preview-card{margin:0}
+.final-preview-frame{
+  aspect-ratio:4/3;
+  display:grid;
+  place-items:center;
+  padding:clamp(10px,1.5vw,22px);
+  background:#fff;
+  overflow:hidden;
+}
+.final-preview-frame img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  cursor:zoom-in;
+}
+.final-preview-frame img:focus-visible{outline:4px solid #e24a2a;outline-offset:-4px}
+.final-preview-card figcaption{
+  padding-top:18px;
+  border-top:1px solid #aaa9a3;
+}
+.final-preview-card figcaption strong{display:block;font-size:17px;line-height:1.45}
+.final-preview-card figcaption p{margin:8px 0 0;font-size:15px;line-height:1.65;color:#51534f}
+.case-summary{padding-top:clamp(72px,9vh,110px)}
+
+/* One deliberate closing composition across every page. */
+.footer{padding:clamp(88px,11vh,130px) var(--g) 36px}
+.footer-grid{
+  grid-template-columns:minmax(170px,.7fr) minmax(0,2.3fr);
+  column-gap:clamp(40px,6vw,92px);
+  row-gap:36px;
+  padding-top:20px;
+  border-top:1px solid #f3f0e84d;
+}
+.footer .eyebrow{grid-column:1;grid-row:1;color:#e0ddd4}
+.footer h2{
+  grid-column:2;
+  grid-row:1;
+  max-width:940px;
+  font-size:clamp(54px,6.8vw,104px);
+  line-height:.88;
+  letter-spacing:-.035em;
+}
+.footer-links{grid-column:2;grid-row:2;margin-top:8px;gap:38px}
+.footer-links .link{font-size:15px;color:#f3f0e8}
+.footer-note{
+  grid-column:1;
+  grid-row:2;
+  align-self:end;
+  margin:0;
+  max-width:210px;
+  font:500 12.5px/1.65 Manrope,Arial,sans-serif;
+  letter-spacing:.01em;
+  color:#d5d1c6;
+}
+
+@media(max-width:800px){
+  .about-photo{width:min(78vw,290px);justify-self:center}
+  .final-preview-intro,.footer-grid{grid-template-columns:1fr}
+  .final-preview-grid{grid-template-columns:1fr}
+  .final-preview-intro{gap:22px}
+  .footer .eyebrow,.footer h2,.footer-links,.footer-note{grid-column:1;grid-row:auto}
+  .footer-links{margin-top:4px}
+  .footer-note{max-width:none;margin-top:28px;font-size:13px}
+}

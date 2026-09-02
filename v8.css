@@ -1,0 +1,42 @@
+/* Keep every homepage preview visually continuous with its case-study hero. */
+.home-project figure,
+.case-hero-image{
+  aspect-ratio:16/10;
+  min-height:0;
+  padding:clamp(12px,2vw,30px);
+  overflow:hidden;
+}
+
+.home-project figure img,
+.case-hero-image img{
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  transform:none;
+}
+
+.home-project:hover figure img{transform:scale(1.018)}
+
+.home-project:nth-child(1) figure,
+body[data-project="sso"] .case-hero-image{background:#f3f0e8}
+.home-project:nth-child(1) figure img,
+body[data-project="sso"] .case-hero-image img{width:100%;filter:none}
+
+.home-project:nth-child(2) figure,
+body[data-project="rbac"] .case-hero-image{background:#cadcdf}
+.home-project:nth-child(2) figure img,
+body[data-project="rbac"] .case-hero-image img{width:92%;filter:drop-shadow(0 22px 30px #0002)}
+
+.home-project:nth-child(3) figure,
+body[data-project="oauth"] .case-hero-image{background:#173f36}
+.home-project:nth-child(3) figure img,
+body[data-project="oauth"] .case-hero-image img{width:90%;filter:drop-shadow(0 22px 30px #0004)}
+
+.home-project:nth-child(4) figure,
+body[data-project="operator"] .case-hero-image{background:#f8f7f3}
+.home-project:nth-child(4) figure img,
+body[data-project="operator"] .case-hero-image img{width:92%;filter:none}
+
+@media(max-width:800px){
+  .home-project figure,.case-hero-image{aspect-ratio:4/3;padding:8px}
+}
