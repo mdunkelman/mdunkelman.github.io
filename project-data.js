@@ -1,6 +1,6 @@
 window.projectData = {
   rbac: {
-    order: "02", eyebrow: "Platform governance", title: "Scaling role-based access control", dek: "Expanding access without expanding risk, with a model that gave support teams autonomy while preserving platform control.", timeframe: "June–October 2025", role: "Lead designer", team: "Product · Engineering · Design · Tech writing · QA", hero: "assets/rbac/ORvPpdfYB6l7VUGGxsYzzwTNHE.png",
+    order: "02", eyebrow: "Platform governance", title: "Scaling role-based access control", dek: "Expanding access without expanding risk, with a model that gave support teams autonomy while preserving platform control.", timeframe: "June–October 2025", role: "Lead designer", team: "Product · Engineering · Design · Tech writing · QA", hero: "assets/rbac/rbac-hero-restored.png",
     challenge: "A small group of Super Admins controlled Operator Center. Routine support work queued behind people with unrestricted access, but opening the application broadly would create security and compliance risk.",
     outcome: "A tiered access model gives Support Admins useful autonomy, lets Super Admins manage operators directly, and records access changes in a searchable audit log.",
     facts: [["Research","7 internal interviews"],["New capabilities","Role UI · Operator management · Audit log"],["Principle","Least privilege"]],
