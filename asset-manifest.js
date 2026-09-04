@@ -1,7 +1,7 @@
 window.assetManifest = {
   "rbac": [
     "assets/rbac/rbac-hero-restored.png",
-    "assets/rbac/audit-log.png",
+    "assets/rbac/audit-log-restored.png",
     "assets/rbac/ddU0F3fb4cJeTc46vSj7nDunU.png",
     "assets/rbac/XeACp9Fs6QMgf0iNLpBoAxUQ1Es.png",
     "assets/rbac/V9AO4Cu9QZt7L417r2EVkClC4.png",
