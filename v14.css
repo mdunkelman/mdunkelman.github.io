@@ -48,3 +48,9 @@ body[data-project="devex"] #chapter-3 .evidence:last-child,body[data-project="de
 .microsoft-logo{display:grid!important;grid-template-columns:repeat(2,9px);grid-template-rows:repeat(2,9px);gap:2px;width:20px;height:20px;margin-bottom:14px}.microsoft-logo i:nth-child(1){background:#f25022}.microsoft-logo i:nth-child(2){background:#7fba00}.microsoft-logo i:nth-child(3){background:#00a4ef}.microsoft-logo i:nth-child(4){background:#ffb900}
 @media(max-width:1199px){body[data-project="devex"] #chapter-2 .evidence-sequence,body[data-project="devex"] #chapter-3 .evidence-sequence,body[data-project="devex"] #chapter-4 .evidence-sequence{left:auto;width:100%;transform:none}}
 @media(max-width:800px){body[data-project="devex"] #chapter-2 .evidence:not(:first-child) .evidence-heading,body[data-project="devex"] #chapter-3 .evidence:not(:last-child) .evidence-heading,body[data-project="devex"] #chapter-4 .evidence:not(:last-child) .evidence-heading{min-height:0}body[data-project="devex"] #chapter-2 .evidence:first-child{width:100%}}
+
+/* Stable homepage art direction independent of project order */
+.home-project.home-project-devex figure{background:#dfe5e1}.home-project.home-project-devex figure img{width:94%;height:90%;object-fit:contain;filter:drop-shadow(0 18px 24px #173f3620)}
+.home-project.home-project-sso figure{background:#f3f0e8}.home-project.home-project-sso figure img{width:100%;height:100%;filter:none}
+.home-project.home-project-rbac figure{background:#d9e4df}.home-project.home-project-oauth figure{background:#173f36}.home-project.home-project-operator figure{background:#f8f7f3}
+@media(max-width:800px){.home-project.home-project-devex figure img{width:100%;height:94%}}

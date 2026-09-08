@@ -1,6 +1,6 @@
 window.projectData = {
   devex: {
-    order:"Preview",eyebrow:"Developer experience",title:"Atlas Developer Portal",dek:"Creating one place for developers to discover Atlas, find useful guidance, request access, and understand what happens next.",timeframe:"July–September 2026 · Phase 1",role:"Lead Product Designer · Sole designer",team:"Product · TPM · Frontend and backend engineering · Developer leads · Technical writing",hero:"assets/devex/screens/home-final.png",
+    order:"01",eyebrow:"Developer experience",title:"Atlas Developer Portal",dek:"Creating one place for developers to discover Atlas, find useful guidance, request access, and understand what happens next.",timeframe:"July–September 2026 · Phase 1",role:"Lead Product Designer · Sole designer",team:"Product · TPM · Frontend and backend engineering · Developer leads · Technical writing",hero:"assets/devex/screens/home-final-tracked.png",
     challenge:"Atlas gives PTC teams a shared cloud-native foundation for building and transitioning products to SaaS, but developers had no reliable starting point for adopting it. Guidance, onboarding requests, ownership, and status were spread across Jira, Confluence, repositories, and the people who knew how the platform worked.",
     outcome:"The first Atlas Developer Portal centralized platform discovery, documentation, access guidance, and Jira request visibility. It made the Atlas landscape easier for new developers to understand while establishing a product foundation for automated self-service onboarding.",
     facts:[["Validation","PM · TPM · Frontend · Content authors"],["Phase 1","Discovery · Docs · Request status"],["Next phase","Automated self-service onboarding"]],
@@ -13,7 +13,7 @@ window.projectData = {
     close:"The work reinforced that MVP design is not about showing less ambition. It is about understanding the full system well enough to choose the smallest release that changes the experience in a meaningful way."
   },
   rbac: {
-    order: "02", eyebrow: "Platform governance", title: "Scaling role-based access control", dek: "Expanding access without expanding risk, with a model that gave support teams autonomy while preserving platform control.", timeframe: "June–October 2025", role: "Lead designer", team: "Product · Engineering · Design · Tech writing · QA", hero: "assets/rbac/rbac-hero-restored.png",
+    order: "03", eyebrow: "Platform governance", title: "Scaling role-based access control", dek: "Expanding access without expanding risk, with a model that gave support teams autonomy while preserving platform control.", timeframe: "June–October 2025", role: "Lead designer", team: "Product · Engineering · Design · Tech writing · QA", hero: "assets/rbac/rbac-hero-restored.png",
     challenge: "A small group of Super Admins controlled Operator Center. Routine support work queued behind people with unrestricted access, but opening the application broadly would create security and compliance risk.",
     outcome: "A tiered access model gives Support Admins useful autonomy, lets Super Admins manage operators directly, and records access changes in a searchable audit log.",
     facts: [["Research","7 internal interviews"],["New capabilities","Role UI · Operator management · Audit log"],["Principle","Least privilege"]],
@@ -26,7 +26,7 @@ window.projectData = {
     close: "The key lesson was that useful access is not the same as broad access. Support teams needed enough context to investigate problems, while the system still had to make authority and accountability explicit."
   },
   sso: {
-    order:"01",eyebrow:"Identity & access",title:"Single Sign-on Connection Manager",dek:"Turning a fragmented, support-led SSO setup process into a guided operational workflow.",timeframe:"October 2023–April 2024",role:"Lead designer",team:"Product · Engineering · Design · Tech writing · QA",hero:"assets/sso/ZHjS5OHZey9CJHKIv6fivQW80E.png",
+    order:"02",eyebrow:"Identity & access",title:"Single Sign-on Connection Manager",dek:"Turning a fragmented, support-led SSO setup process into a guided operational workflow.",timeframe:"October 2023–April 2024",role:"Lead designer",team:"Product · Engineering · Design · Tech writing · QA",hero:"assets/sso/ZHjS5OHZey9CJHKIv6fivQW80E.png",
     challenge:"SSO configuration lived in an aging tool with limited fields, limited customization, and no path toward customer-led administration. Internal operators coordinated technical information across customers and support teams, often while configuring a connection live.",
     outcome:"PTC operators can now create, inspect, refresh, and modify SSO connections from one modern interface inside Operator Center.",
     facts:[["Primary user","PTC platform operators"],["Core object","SSO connection"],["Environment","Dev · Staging · Production"]],
@@ -38,7 +38,7 @@ window.projectData = {
     ],close:"The wizard looked simpler, but it made the real task harder. Keeping the complete form visible gave operators the context they needed to compare, correct, and maintain technical information with customers."
   },
   oauth: {
-    order:"03",eyebrow:"Integration management",title:"OAuth 2.0 Client Integration Manager",dek:"Helping Windchill administrators connect third-party systems securely without turning OAuth into a documentation exercise.",timeframe:"July–October 2023",role:"Lead designer",team:"Product · Engineering · Design · Tech writing",hero:"assets/oauth/xCfRTpz9RXLepb7TN0VgU1bNRBM.svg",
+    order:"04",eyebrow:"Integration management",title:"OAuth 2.0 Client Integration Manager",dek:"Helping Windchill administrators connect third-party systems securely without turning OAuth into a documentation exercise.",timeframe:"July–October 2023",role:"Lead designer",team:"Product · Engineering · Design · Tech writing",hero:"assets/oauth/xCfRTpz9RXLepb7TN0VgU1bNRBM.svg",
     challenge:"Windchill customers needed PLM data inside ERP and analytics tools, but PTC lacked a customer-managed path for creating and maintaining secure OAuth 2.0 clients.",
     outcome:"Windchill+ administrators can configure OAuth integrations in Admin Center, rotate secrets, edit callback URLs, and copy the credentials needed by third-party applications.",
     facts:[["Protocol","OAuth 2.0"],["Audience","Windchill+ administrators"],["Core actions","Configure · Rotate · Maintain"]],
@@ -50,7 +50,7 @@ window.projectData = {
     ],close:"The turning point was correcting the product model, not polishing the first interface. Once the team aligned around applications and durable Client IDs, the screen structure became much clearer."
   },
   operator: {
-    order:"04",eyebrow:"Administration platform",title:"PTC Operator Center",dek:"Creating one operating surface for the organizations, users, and licenses behind PTC’s SaaS products.",timeframe:"2023–ongoing",role:"Lead designer",team:"Product · Engineering · Design · Tech writing",hero:"assets/operator/zOfNEeyRbBbDdB4yw3zRSI74t4.svg",
+    order:"05",eyebrow:"Administration platform",title:"PTC Operator Center",dek:"Creating one operating surface for the organizations, users, and licenses behind PTC’s SaaS products.",timeframe:"2023–ongoing",role:"Lead designer",team:"Product · Engineering · Design · Tech writing",hero:"assets/operator/zOfNEeyRbBbDdB4yw3zRSI74t4.svg",
     challenge:"Product teams managed customers through fragmented, product-specific processes. As Creo and Windchill moved toward SaaS, the legacy tooling could not support their more complex organization and licensing needs.",
     outcome:"Authorized employees now use a centralized application to locate organizations, update metadata, troubleshoot users and licenses, and create new customer organizations.",
     facts:[["Initial scope","Organizations · All users"],["Platform","PTC Atlas"],["Design approach","Reusable admin patterns"]],
