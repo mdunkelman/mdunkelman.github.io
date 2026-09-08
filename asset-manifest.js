@@ -1,4 +1,15 @@
 window.assetManifest = {
+  "devex": [
+    "assets/devex/screens/home-mvp-requests.png",
+    "assets/devex/screens/home-mvp.png",
+    "assets/devex/screens/article-page.png",
+    "assets/devex/screens/requests-list.png",
+    "assets/devex/screens/request-access.png",
+    "assets/devex/screens/home-ideal.png",
+    "assets/devex/screens/getting-started-ideal.png",
+    "assets/devex/screens/docs-categories.png",
+    "assets/devex/screens/docs-topic-page.png"
+  ],
   "rbac": [
     "assets/rbac/rbac-hero-restored.png",
     "assets/rbac/audit-log-restored.png",
