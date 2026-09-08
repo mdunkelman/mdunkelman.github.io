@@ -1,6 +1,7 @@
 window.assetManifest = {
   "devex": [
     "assets/devex/screens/home-final.png",
+    "assets/devex/screens/home-final-tracked.png",
     "assets/devex/screens/home-foundation.png",
     "assets/devex/screens/docs-article.png",
     "assets/devex/screens/docs-scroll-state.png",
