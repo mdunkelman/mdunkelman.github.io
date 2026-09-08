@@ -1,14 +1,16 @@
 window.assetManifest = {
   "devex": [
-    "assets/devex/screens/home-mvp-requests.png",
-    "assets/devex/screens/home-mvp.png",
-    "assets/devex/screens/article-page.png",
-    "assets/devex/screens/requests-list.png",
-    "assets/devex/screens/request-access.png",
-    "assets/devex/screens/home-ideal.png",
-    "assets/devex/screens/getting-started-ideal.png",
-    "assets/devex/screens/docs-categories.png",
-    "assets/devex/screens/docs-topic-page.png"
+    "assets/devex/screens/home-final.png",
+    "assets/devex/screens/home-foundation.png",
+    "assets/devex/screens/docs-article.png",
+    "assets/devex/screens/docs-scroll-state.png",
+    "assets/devex/screens/requests-default.png",
+    "assets/devex/screens/requests-empty-final.png",
+    "assets/devex/screens/request-guide.png",
+    "assets/devex/screens/home-early-concept.png",
+    "assets/devex/screens/getting-started-concept.png",
+    "assets/devex/screens/docs-landing-concept.png",
+    "assets/devex/screens/docs-topic-concept.png"
   ],
   "rbac": [
     "assets/rbac/rbac-hero-restored.png",
