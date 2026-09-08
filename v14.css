@@ -38,8 +38,8 @@ body[data-project="devex"] .story-visual footer{display:flex;flex-wrap:wrap;alig
 /* Atlas evidence alignment refinements */
 body[data-project="devex"] .evidence{margin-left:0;margin-right:auto}
 body[data-project="devex"] #chapter-2 .evidence-sequence,body[data-project="devex"] #chapter-3 .evidence-sequence,body[data-project="devex"] #chapter-4 .evidence-sequence{left:50%;width:min(1260px,calc(100vw - 280px));transform:translateX(calc(-50% - 60px));align-items:start}
-body[data-project="devex"] #chapter-2 .evidence,body[data-project="devex"] #chapter-3 .evidence,body[data-project="devex"] #chapter-4 .evidence{display:grid;grid-template-rows:auto auto 1fr;align-self:start;margin-left:0}
-body[data-project="devex"] #chapter-2 .evidence:not(:first-child) .evidence-heading,body[data-project="devex"] #chapter-3 .evidence:not(:last-child) .evidence-heading,body[data-project="devex"] #chapter-4 .evidence:not(:last-child) .evidence-heading{min-height:76px;align-content:end}
+body[data-project="devex"] #chapter-2 .evidence,body[data-project="devex"] #chapter-3 .evidence,body[data-project="devex"] #chapter-4 .evidence{display:block;align-self:start;margin-left:0}
+body[data-project="devex"] #chapter-2 .evidence:not(:first-child) .evidence-heading,body[data-project="devex"] #chapter-3 .evidence:not(:last-child) .evidence-heading,body[data-project="devex"] #chapter-4 .evidence:not(:last-child) .evidence-heading{min-height:76px}
 body[data-project="devex"] #chapter-2 .evidence:first-child{width:min(100%,840px);margin-left:0}
 body[data-project="devex"] #chapter-2 .evidence:first-child .evidence-frame{padding:0;background:transparent;border:0;justify-items:start;overflow:visible}
 body[data-project="devex"] #chapter-2 .evidence:first-child .evidence-frame:before{display:none}
